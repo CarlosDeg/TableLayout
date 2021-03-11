@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 for (int i=0; i<4 ;i++)
                 {
                     textView=new TextView(getBaseContext());
-                    textView.setGravity(Gravity.CENTER_HORIZONTAL);
+
+                    textView.setGravity(Gravity.CENTER_VERTICAL);
+
                     textView.setPadding(15,15,15,15);
                     //textView.setBackgroundResource(R.color.WHITE);
                     textView.setText(cadena[i]);
